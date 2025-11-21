@@ -1,17 +1,21 @@
 {
-    "name": "alonsoggdev/ci4_auth",
-    "description": "Authentication module for Codeigniter4",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Alonsoggdev\\Ci4Auth\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Alonso García",
-            "email": "167032274+alonsoggdev@users.noreply.github.com"
-        }
-    ],
-    "require": {}
+  "name": "alonsoggdev/ci4-auth",
+  "description": "Módulo de autenticacion para CodeIgniter 4",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alonso García",
+      "email": "alonsogg@hotmail.es"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "codeigniter4/framework": "^4.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\CMS\\": "src/"
+    }
+  }
 }
