@@ -1,0 +1,17 @@
+{
+    "name": "alonsoggdev/ci4_auth",
+    "description": "Authentication module for Codeigniter4",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Alonsoggdev\\Ci4Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alonso García",
+            "email": "167032274+alonsoggdev@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
